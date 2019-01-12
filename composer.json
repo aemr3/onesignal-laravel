@@ -32,7 +32,7 @@
               "jmrieger\\OneSignal\\OneSignalServiceProvider"
           ],
           "aliases": {
-              "OneSignal": "jmrieger\OneSignal\OneSignalFacade"
+              "OneSignal": "jmrieger\\OneSignal\\OneSignalFacade"
           }
       }
   }
