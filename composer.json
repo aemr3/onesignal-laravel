@@ -25,5 +25,15 @@
     }
   ],
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "extra": {
+      "laravel": {
+          "providers": [
+              "jmrieger\\OneSignal\\OneSignalServiceProvider"
+          ],
+          "aliases": {
+              "OneSignal": "jmrieger\OneSignal\OneSignalFacade"
+          }
+      }
+  }
 }
